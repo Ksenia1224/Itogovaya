@@ -71,11 +71,11 @@ public class Main {
                     System.out.println("Введите контактные координаты безработного");
                     birgha.setCoordinat(scanner.nextLine());
 
-                    System.out.println("Введите требования  к будущей работе"); //324234
+                    System.out.println("Введите требования  к будущей работе");
                     birgha.setTreb(scanner.nextLine());
 
                     if (truds.getData() == null) {
-                        List<Birgha> temp = new ArrayList<>(); //cvdfg
+                        List<Birgha> temp = new ArrayList<>();
                         temp.add(birgha);
                         truds.setData(temp);
                     } else {
